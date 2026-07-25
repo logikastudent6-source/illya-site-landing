@@ -1,0 +1,106 @@
+
+body {
+  background-color: #121216; 
+  color: #e0e0e6;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  border-bottom: 2px solid #ffd700;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffd700;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+nav a {
+  color: #a020f0;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+section {
+  background-color: #1c1c24;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #00f2ff;
+  margin-top: 10px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #333344;
+  margin: 20px 0;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #777788;
+}
+
+footer a {
+  color: #ffd700;
+}
+
+
+
+
+
+#about {
+  border-left: 5px solid #00f2ff; 
+  background-color: rgba(0, 242, 255, 0.03);
+}
+
+#about h2 {
+  color: #00f2ff;
+  text-shadow: 0 0 12px rgba(0, 242, 255, 0.8);
+}
+
+#about p {
+  color: #00f2ff;
+  text-shadow: 0 0 8px rgba(0, 242, 255, 0.5);
+}
+
+.disassembly-card, 
+.disassembly-card p, 
+.disassembly-card span {
+  color: #ffd700;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+
+.uzi-card, 
+.uzi-card p, 
+.uzi-card span {
+  color: #a020f0 ;
+  text-shadow: 0 0 10px rgba(160, 32, 240, 0.8) ;
+}
